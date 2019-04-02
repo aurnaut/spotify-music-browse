@@ -1,2 +1,2 @@
-# spotify-music-browse
-Simple Spotify Browse API consumption with React
+# TicketMaster Events
+Simple TicketMaster API consumption with React and Redux

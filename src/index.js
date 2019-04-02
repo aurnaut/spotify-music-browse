@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SpotifyMusicLibrary from './components/SpotifyMusicLibrary';
+import TicketMasterEvents from './components/TicketMasterEvents';
+import index from './js/index'
 
 const renderElement = document.getElementById('app');
-renderElement ? ReactDOM.render(<SpotifyMusicLibrary />, renderElement) : false;
+renderElement ? ReactDOM.render(<TicketMasterEvents />, renderElement) : false;
