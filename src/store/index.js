@@ -6,5 +6,5 @@ const initialState = {};
 const middleware = [thunk];
 
 const store = createStore(rootReducer, initialState, applyMiddleware(...middleware));
-//window.store = store;
+window.store = store;
 export default store;
