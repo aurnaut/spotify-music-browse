@@ -1,16 +1,6 @@
-import { GET_EVENTS } from '../constants/action-types';
+import { combineReducers } from 'redux';
+import eventReducer from './eventReducer';
 
-const initialState = {
-    events: []
-}
-
-function rootReducer(state = initialState, action) {
-    if (action.type === GET_EVENTS) {
-        return Object.assign({}, state, {
-            events: state.events.concat(action.payload)
-        })
-    }
-    return state;
-}
-
-export default rootReducer;
+export default combineReducers({
+    events: eventReducer
+});

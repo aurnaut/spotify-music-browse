@@ -1,10 +1,11 @@
 import React from 'react';
-import EventList from './EventList';
+import EventList from './EventList/EventList';
+import Header from './Header/Header';
 
 const App = () => (
-    <div className='row mt-5'>
-        <div className='col-md-4 offset-md-1'>
-            <h2>Events</h2>
+    <div className='row'>
+        <div className='col-md-12'>
+            <Header />
             <EventList />
         </div>
     </div>
